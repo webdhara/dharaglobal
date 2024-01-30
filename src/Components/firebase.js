@@ -1,14 +1,13 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 var firebaseConfig = {
-    apiKey: "AIzaSyDMkveVMywAdo-vC2niMjO6Rw4E17IAFjs",
-    authDomain: "certificate-verification-4c47c.firebaseapp.com",
-    databaseURL: "https://certificate-verification-4c47c-default-rtdb.firebaseio.com",
-    projectId: "certificate-verification-4c47c",
-    storageBucket: "certificate-verification-4c47c.appspot.com",
-    messagingSenderId: "312051762679",
-    appId: "1:312051762679:web:b29c309e319c3b72a01af2",
-    measurementId: "G-RYL8KLSXMY"
+   apiKey: "AIzaSyA1Zh1V7ireKB53z0dqpS4S6oAL3aA5E0Q",
+  authDomain: "dharaglobals.firebaseapp.com",
+  projectId: "dharaglobals",
+  storageBucket: "dharaglobals.appspot.com",
+  messagingSenderId: "113770209207",
+  appId: "1:113770209207:web:51b00c92d707881de19232",
+  measurementId: "G-HKDS2FGQNQ"
 };
  
 // Initialize Firebase
