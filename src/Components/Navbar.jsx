@@ -34,7 +34,7 @@ function Navbar() {
     </div>
       <ul className={active}>
         <li className="nav__item">
-        <NavLink to="/app" className="nav__link" >Home</NavLink> 
+        <NavLink to="/" className="nav__link" >Home</NavLink> 
         </li>
         <li className="nav__item">
         <NavLink to="/about" className="nav__link" >About</NavLink> 

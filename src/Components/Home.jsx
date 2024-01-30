@@ -13,7 +13,7 @@ export default function Home() {
       <motion.div className="main-container" style={{ scale: scale }}>
         <img src="https://static.wixstatic.com/media/11062b_78134d5be79b47c69ab7a9d034104c44~mv2_d_3949_2633_s_4_2.jpg/v1/fill/w_1749,h_694,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_78134d5be79b47c69ab7a9d034104c44~mv2_d_3949_2633_s_4_2.jpg" alt="Your Image Description"/> 
         <div className="overlay-text">Learn with Dhara Global Solutions</div>
-        <NavLink to="/verify" className="border-container">
+        <NavLink to="/" className="border-container">
           <p>Get in touch</p>
         </NavLink>
       </motion.div>
