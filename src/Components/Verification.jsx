@@ -80,7 +80,7 @@ const Verification=() =>{
   <div className="verify-b">
   
   <div className='verify-container'>
-  <label className='label'>Unique Certificate Code:*</label>
+  <label className='label'>Unique Certificate ID:*</label>
   <input type="text" className='input' name='message' id="message" onChange={handleChange} value={message}></input>
   <button className='button' onClick={verify}>Verify</button>
 
