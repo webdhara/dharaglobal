@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .animated-div {
     border-top: 1px solid #fff;
     font-family: 'Oswald', sans-serif;
@@ -174,9 +175,13 @@
     display: flex;
     justify-content: center;
   }
+  .p-status b{
+    font-family: "Oswald";
+    font-weight: 50;
+  }
 
   .p-status {
-    font-size: 200%;
+    font-size: 176%;
     color: whitesmoke;
     width: 375px;
     left: 50px;
@@ -185,7 +190,7 @@
     text-align: center;
     position: absolute;
     top: 125px;
-    font-family: 'Niconne';
+    font-family: 'Playfair Display';
   }
   
   .p-status1 {

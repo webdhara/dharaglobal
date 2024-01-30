@@ -66,7 +66,7 @@ const Verification=() =>{
 </>)}
   {showDiv1 && (
     <div>
-      {<p className='p-status' style={{ color: "#fff;", textAlign: "left" }}>&nbsp;&nbsp;<b>Name :</b>&nbsp;&nbsp;{certificateData['Name']} <br />&nbsp;&nbsp;<b>Roll No :</b>&nbsp;&nbsp; {certificateData['RollNo']} <br />&nbsp;&nbsp;<b>Domain :</b>&nbsp;&nbsp; {certificateData['Domain']} <br />&nbsp;&nbsp;<b>From Date :</b>&nbsp;&nbsp;{certificateData['from']}<br />&nbsp;&nbsp;<b>To Date :</b>&nbsp;&nbsp;{certificateData['todate']}<br />&nbsp;&nbsp;<b>Certificate ID :</b>&nbsp;&nbsp;{certificateData['certificateId']}</p>}
+      {<p className='p-status' style={{ color: "#fff;", textAlign: "left" }}>&nbsp;&nbsp;<b >Name :</b>&nbsp;&nbsp;{certificateData['Name']} <br />&nbsp;&nbsp;<b>Roll No :</b>&nbsp;&nbsp; {certificateData['RollNo']} <br />&nbsp;&nbsp;<b>Domain :</b>&nbsp;&nbsp; {certificateData['Domain']} <br />&nbsp;&nbsp;<b>From Date :</b>&nbsp;&nbsp;{certificateData['from']}<br />&nbsp;&nbsp;<b>To Date :</b>&nbsp;&nbsp;{certificateData['todate']}<br />&nbsp;&nbsp;<b>Certificate ID :</b>&nbsp;&nbsp;{certificateData['certificateId']}</p>}
 
     </div>
   )}
