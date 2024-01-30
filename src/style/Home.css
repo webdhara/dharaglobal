@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.main-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 13px;
+}
+
+.main-container img {
+  width: 95%;
+  height: auto;
+  display: block;
+  left: 2.5%;
+  position: relative;
+  filter: brightness(0.7);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 400%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.border-container {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 45px;
+  border: 2px solid #fff;
+  border-radius: 36px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s; /* Transition effect for background and color changes */
+}
+
+.border-container:hover {
+  background-color: white; /* Change background color on hover */
+  color:black;
+}
+
+.border-container p {
+  position: absolute;
+  font-size: 10px;
+  top: 14px;
+  left: 30px;
+}
+
+@media only screen and (max-width: 680px) {
+  .border-container {
+    width: 80px;
+    height: 25px;
+    top: 75%;
+  }
+
+  .border-container p {
+    position: absolute;
+    font-size: 10px;
+    top: 12px;
+    left: 12px;
+  }
+  .overlay-text{
+    font-size: 20px;
+  }
+}
+
+.parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+    margin-top: 18px;
+    justify-content: space-between;
+
+}
+
+
+.a, .b {
+
+    width: 49%;
+    height:auto;
+ 
+}
+.b img{
+    width: 100%;
+    height: auto;
+}
+.a{
+    background-color: #162B6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+}
+.a div{
+    width: 70%;
+    margin-bottom: 5px;
+}
+.a span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    position: relative;
+    left:30%
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .a, .b {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 20px;
+
+    }
+    .a span{
+        
+        font-size: 30px;
+        position: relative;
+        left:30%
+        
+    }
+    
+}
+
+
+.home-outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9fa;
+    margin-top: 25px;
+  }
+  
+  .home-outer-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9fa;
+    margin-top: 25px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  .home-centered-text {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color:#162B6F;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .home-centered-text p{
+    font-family:  sans-serif;
+    font-size: 15px;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
+  .home-inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  .home-inner-item {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .home-circle-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the entire circle */
+    margin-bottom: 10px;
+  }
+  
+  .home-image-name,
+  .home-image-description {
+    margin: 5px 0;
+    
+  }
+  
+  .home-inner-item span
+  {
+    position: relative;
+    left: 100px;
+
+   
+  }
+  .home-image-name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #162B6F;
+  }
+  @media only screen and (max-width: 768px) {
+    .home-inner-container {
+      flex-direction: column;
+    }
+  
+    .home-inner-item {
+      width: 100%;
+    }
+  }
+  
