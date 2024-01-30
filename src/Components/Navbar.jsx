@@ -20,7 +20,7 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <a href="/app" className="nav__brand">
+      <a href="/" className="nav__brand">
         Dhara Global Solutions
       </a>
       <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>

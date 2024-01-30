@@ -15,7 +15,7 @@ export default function () {
     <div>
     <Navbar/>
     <Routes>
-    <Route path="/app" element={<Home/>}></Route>
+    <Route path="/" element={<Home/>}></Route>
     <Route path="/about" element={<About/>}></Route>
     <Route path="/contact" element={<Contact/>}></Route>
     <Route path="/reg" element={<IntershipReg/>}></Route>
