@@ -36,7 +36,7 @@ function Navbar() {
       <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>
       <img src='https://i.imgur.com/aNQWKg0.png' alt="LinkedIn Icon" />
     </div>
-    <div className="footer-icon" onClick={() => handleRedirect('https://mail.google.com/mail/u/0/#inbox')}>
+    <div className="footer-icon" onClick={() => handleRedirect('mailto:dharaglobalsolutions@gmail.com')}>
       <img src='https://i.imgur.com/UGUaRt4.png' alt="External Link Icon" />
     </div>
     <div className="footer-icon" onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')}>

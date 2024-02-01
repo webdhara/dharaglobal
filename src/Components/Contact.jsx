@@ -12,6 +12,9 @@ export default function Contact() {
       preserveAspectRatio: "xMidYMid slice"
     }
   };
+  const handleRedirect = (url) => {
+    window.open(url, '_blank'); // Open the link in a new tab
+  };
 
 
 
@@ -24,7 +27,7 @@ export default function Contact() {
           <div className="footer-centered-container">
             <div className="footer-centered-text1" style={{ fontSize: "50px" }}>Contact</div>
             <div className="footer-centered-text">Tirupati, Andhra Pradesh, India</div>
-            <div className="footer-centered-text">dharaglobalsolutions@gmail.com</div>
+            <div className="footer-centered-text"  style={{cursor:"pointer"}} onClick={()=>handleRedirect('mailto:dharaglobalsolutions@gmail.com')}>dharaglobalsolutions@gmail.com</div>
             <div className="footer-centered-text">+91 9030995777</div>
           </div>
         </div>
