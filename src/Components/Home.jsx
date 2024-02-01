@@ -10,7 +10,8 @@ export default function Home() {
   const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
   return (
     <>
-      <motion.div className="main-container" style={{ scale: scale }}>
+      <motion.div 
+      className="main-container" style={{ scale: scale }}>
         <img src="https://static.wixstatic.com/media/11062b_78134d5be79b47c69ab7a9d034104c44~mv2_d_3949_2633_s_4_2.jpg/v1/fill/w_1749,h_694,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_78134d5be79b47c69ab7a9d034104c44~mv2_d_3949_2633_s_4_2.jpg" alt="Your Image Description"/> 
         <div className="overlay-text">Learn with Dhara Global Solutions</div>
         <NavLink to="/" className="border-container">
@@ -18,8 +19,8 @@ export default function Home() {
         </NavLink>
       </motion.div>
 
-      <div className="parent-container" >
-      <div className="a"> <div > <span> About Us</span> <p>Dhara Global Solutions is a forward-thinking 
+      <div className="parent-container"  style={{justifyContent: "space-between"}}>
+      <div className="a"> <div > <span> About Us</span> <p style={{marginBottom:"10px"}}>Dhara Global Solutions is a forward-thinking 
       and dynamic organization dedicated to empowering engineering 
       students with the skills and knowledge needed to excel in the 
       world of technology and innovation. Our primary focus is on providing
