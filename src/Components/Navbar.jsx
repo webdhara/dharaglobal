@@ -73,7 +73,7 @@ function Navbar() {
         </li>
         <li className="nav__item">
         <li className="nav__item">
-        <NavLink to="/reg" className="nav__link"  onClick={handleNav} >Intership Registration</NavLink> 
+        <NavLink to="/reg" className="nav__link"  onClick={handleNav} >Internship Registration</NavLink> 
         </li>
         </li>
         <li className="nav__item">
