@@ -24,12 +24,12 @@ export default function Contact() {
     <>
       <div className="parent-container" style={{left:"3.5%"}} >
         <div className="a" style={{ backgroundColor: "#f9f9fa", color: "#162B6F" }}>
-          <div className="footer-centered-container">
+          <div className="footer-centered-container" style={{width:"76%"}}>
             <div className="footer-centered-text1" style={{ fontSize: "50px" }}>Contact</div>
-            <div className="footer-centered-text">Tirupati, Andhra Pradesh, India</div>
-            <div className="footer-centered-text"  style={{cursor:"pointer"}} onClick={()=>handleRedirect('mailto:contact@dharaglobal.in')}>contact@dharaglobal.in</div>
-            <div className="footer-centered-text">+91 9030995777</div>
-          <div style={{display:"flex",justifyContent:"space-evenly",marginTop:"25px"}}>
+        <div className="footer-centered-text">  <img src="	https://i.imgur.com/Njmri3T.png" alt="Image 1"  style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer",    position: "relative", top: "15%",left:"-4%"}} />Dhara Global Solutions, Tirupati, Andhra Pradesh, India</div>
+            <div className="footer-centered-text"  style={{cursor:"pointer"}} onClick={()=>handleRedirect('mailto:contact@dharaglobal.in')}>  <img src="https://i.imgur.com/5NZmRvv.png" alt="Image 1"  style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer",    position: "relative", top: "30%",left:"-4%"}}/>contact@dharaglobal.in</div>
+            <div className="footer-centered-text">  <img src="https://i.imgur.com/Hxq0Pen.png" alt="Image 1"  style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer", position: "relative", top: "30%",left:"-4%"}} />+91 9030995777</div>
+          <div style={{display:"flex",justifyContent:"space-evenly",marginTop:"45px"}}>
       <img src="	https://i.imgur.com/Z6zwnEw.png" alt="Image 1" style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}}  onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')} className="inter-circle-image" />
       <img src="	https://i.imgur.com/M3PBKwe.png" alt="Image 1" style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}} onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')} className="inter-circle-image" />
       <img src="https://i.imgur.com/fuvvzNy.png" alt="Image 1"  style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}}  onClick={() => handleRedirect('mailto:contact@dharaglobal.in.com')} className="inter-circle-image" />
