@@ -63,6 +63,7 @@ a {
     right: 0;
     height: 93vh;
     width: 50vw;
+    font-size: small;
     background: rgb(0, 33, 65);
     flex-direction: column;
     transform: translateX(100%);
