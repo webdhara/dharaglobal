@@ -8,12 +8,12 @@ export default function Footer() {
     <>
     <div className="footer-centered-container">
     <div className="footer-centered-text1">Dhara Global Solutions</div>
-    <div className="footer-centered-text" style={{cursor:"pointer"}} onClick={()=>handleRedirect('mailto:dharaglobalsolutions@gmail.com')}>dharaglobalsolutions@gmail.com</div>
+    <div className="footer-centered-text" style={{cursor:"pointer"}} onClick={()=>handleRedirect('mailto:contact@dharaglobal.in')}>contact@dharaglobal.in</div>
     <div className="footer-icons-container">
     <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>
       <img src='	https://i.imgur.com/SiElpuu.png' alt="LinkedIn Icon" />
     </div>
-    <div className="footer-icon" onClick={() => handleRedirect('mailto:dharaglobalsolutions@gmail.com')}>
+    <div className="footer-icon" onClick={() => handleRedirect('mailto:contact@dharaglobal.in.com')}>
       <img src='https://i.imgur.com/VBT5TuL.png' alt="External Link Icon" />
     </div>
     <div className="footer-icon" onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')}>

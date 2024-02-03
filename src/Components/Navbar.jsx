@@ -36,7 +36,7 @@ function Navbar() {
       <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>
       <img src='https://i.imgur.com/aNQWKg0.png' alt="LinkedIn Icon" />
     </div>
-    <div className="footer-icon" onClick={() => handleRedirect('mailto:dharaglobalsolutions@gmail.com')}>
+    <div className="footer-icon" onClick={() => handleRedirect('mailto:contact@dharaglobal.in.com')}>
       <img src='https://i.imgur.com/UGUaRt4.png' alt="External Link Icon" />
     </div>
     <div className="footer-icon" onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')}>
@@ -73,7 +73,7 @@ function Navbar() {
         </li>
         <li className="nav__item">
         <li className="nav__item">
-        <NavLink to="/reg" className="nav__link"  onClick={handleNav} >IntershipReg</NavLink> 
+        <NavLink to="/reg" className="nav__link"  onClick={handleNav} >Intership Registration</NavLink> 
         </li>
         </li>
         <li className="nav__item">

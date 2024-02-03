@@ -3,8 +3,24 @@ import React from 'react'
 export default function About() {
   return (
   <>
+
+
+  <div className="parent-container" style={{marginBottom:"20px"}}  >
+  <div className="b" style={{backgroundColor:"#f9f9fa"}}><img style={{width:"60%",position:"relative",left:"17.5%",marginBottom:"25px" }} src='https://i.imgur.com/wi22QWg.png'/></div>
+  <div className="a" style={{backgroundColor:" #162B6F" , color:"white"}}> <div > <span style={{left:"31%"}}>FOUNDER</span> <p style={{marginBottom:"20px"}}>
+  <b>Dhananjaya Reddy M R</b> is the esteemed <b>Founder and Managing Director of Dhara Global Solutions</b>,
+   a leading Training Institute dedicated to empowering individuals with cutting-edge skills in 
+   technology. With a visionary approach and a deep understanding of the evolving landscape of IT,  
+    <b>Dhananjaya</b> has established <b> Dhara Global Solutions</b> as a premier destination for those seeking 
+   comprehensive training in hardware and software technologies. Under his guidance, the institute 
+   has flourished, equipping countless students with the knowledge and expertise needed to thrive
+    in the dynamic field of information technology.<b> Dhananjaya's </b> unwavering commitment to excellence
+     and innovation continues to drive <b> Dhara Global Solutions </b> towards new heights of success, making
+      it a beacon of learning and opportunity in the realm of hardware and software training.</p></div></div>
+  
+</div>
   <div className="parent-container"  >
-  <div className="a" style={{backgroundColor:"#f9f9fa" , color:"#162B6F"}}> <div > <span style={{left:"11%"}}>A Little Bit About Us</span> <p>
+  <div className="a" style={{backgroundColor:"#f9f9fa" , color:"#162B6F"}}> <div > <span style={{left:"12%"}}>A Little Bit About Us</span> <p >
   Hands-On Workshops: Assist in organizing and conducting practical workshops, 
   allowing students to gain hands-on experience with the latest technologies and tools.
    Learning and Growth: Actively engage in your personal and professional development 

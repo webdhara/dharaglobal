@@ -37,6 +37,10 @@ const Verification=() =>{
       console.log('Certificate not found.');
     }
   }
+  const handleRedirect = (url) => {
+    window.open(url, '_blank'); // Open the link in a new tab
+  };
+
 
   return (
     <>
@@ -87,7 +91,8 @@ const Verification=() =>{
 </div>
   </div>
 </div>
-
+<div className="footer-centered-text" style={{fontWeight:"500"}} >If any issues regarding certification please contact</div>
+ <div className="footer-centered-text"  style={{cursor:"pointer",fontWeight:"500",color: "blue"}} onClick={()=>handleRedirect('mailto:contact@dharaglobal.in')}>contact@dharaglobal.in</div> 
 <div className="home-outer-container"  >
 <div className="home-centered-text">Verification</div>
 <p className="verify-description">This page allows you to verify whether the certificates you have been presented by one of our students are authentic. Every certificate includes an individual verification number in the bottom right corner of the page.
