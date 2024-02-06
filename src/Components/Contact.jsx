@@ -32,7 +32,7 @@ export default function Contact() {
           <div style={{display:"flex",justifyContent:"space-evenly",marginTop:"45px"}}>
       <img src="	https://i.imgur.com/Z6zwnEw.png" alt="Image 1" style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}}  onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')} className="inter-circle-image" />
       <img src="	https://i.imgur.com/M3PBKwe.png" alt="Image 1" style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}} onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')} className="inter-circle-image" />
-      <img src="https://i.imgur.com/fuvvzNy.png" alt="Image 1"  style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}}  onClick={() => handleRedirect('mailto:contact@dharaglobal.in.com')} className="inter-circle-image" />
+      <img src="https://i.imgur.com/fuvvzNy.png" alt="Image 1"  style={{borderRadius:"0%",width: "25px",height: "25px",cursor:"pointer"}}  onClick={() => handleRedirect('mailto:contact@dharaglobal.in.')} className="inter-circle-image" />
       </div>
    
    
