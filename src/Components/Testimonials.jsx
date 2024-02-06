@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Counter from './Counter'
 export default function Testimonials() {
   return (
     <>
@@ -47,7 +47,7 @@ export default function Testimonials() {
         </div>
     </div>
   </div>
-  
+  <Counter/>
   
     </>
   )

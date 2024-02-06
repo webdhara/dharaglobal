@@ -2,7 +2,7 @@ import React from 'react';
 import "../style/Home.css";
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 import {NavLink} from 'react-router-dom';
-
+import Counter from './Counter';
 export default function Home() {
   const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.5]);
@@ -35,6 +35,8 @@ export default function Home() {
             allowing students to apply what they've learned and gain confidence in their skills.</p></div></div>
       <div className="b"><img src='https://static.wixstatic.com/media/847996674cb0494ca49186e52092dbc3.jpg/v1/fill/w_865,h_619,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/847996674cb0494ca49186e52092dbc3.jpg'/></div>
     </div>
+
+    <Counter/>
     <div className="home-outer-container"  >
     <div className="home-centered-text">Services<p>We Provide a wide range of Services like College Intership,Industrial trainings,Resarch Guidance,Project Guidance and many more.</p></div>
     <div className="home-inner-container">
