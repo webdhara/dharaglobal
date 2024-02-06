@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import "../style/counter.css";
+import "../style/counter1.css";
 
-const Counter = () => {
-  
+const Counter1 = () => {
+
   useEffect(() => {
    
-    const sectionCounter = document.querySelector('#section_counter');
-    const counters = document.querySelectorAll('.counter-item .counter');
+    const sectionCounter = document.querySelector('#section_counter1');
+    const counters = document.querySelectorAll('.counter-item1 .counter1');
     const CounterObserver = new IntersectionObserver(
       (entries, observer) => {
         const [entry] = entries;
@@ -64,33 +64,33 @@ const Counter = () => {
   return (
     <>
      
-      <section id="section_counter">
-        <div className="container">
-          <div className="counter-grid">
-            <div className="counter-item">
-              <img src="https://i.imgur.com/mWetBJJ.png" alt="Image" className="counter-img" />
-              <h1 className="counter" data-target="450">0</h1>
+      <section id="section_counter1">
+        <div className="container1">
+          <div className="counter-grid1">
+            <div className="counter-item1">
+              <img src="https://i.imgur.com/mWetBJJ.png" alt="Image" className="counter-img1" />
+              <h1 className="counter1" data-target="450">0</h1>
               <h2 style={{fontFamily:"Oswald"}} >STUDENTS</h2>
             </div>
-            <div className="counter-item">
+            <div className="counter-item1">
             <img
               src="	https://i.imgur.com/ZuOrPzn.png"
               alt="Image"
-              className="counter-img"
+              className="counter-img1"
             />
-            <h1 className="counter" data-target="40">0</h1>
+            <h1 className="counter1" data-target="40">0</h1>
             <h2 style={{fontFamily:"Oswald"}} >INTERNS</h2>
             
           </div>
-          <div className="counter-item">
-          <img src="https://i.imgur.com/jKUmO3t.png" alt="Image" className="counter-img" />
-          <h1 className="counter" data-target="10">0</h1>
+          <div className="counter-item1">
+          <img src="https://i.imgur.com/jKUmO3t.png" alt="Image" className="counter-img1" />
+          <h1 className="counter1" data-target="10">0</h1>
    
           <h2 style={{fontFamily:"Oswald"}} >DOMAINS</h2>
         </div>
-        <div className="counter-item">
-        <img src="	https://i.imgur.com/A1YuIgX.png" alt="Image" className="counter-img" />
-        <h1 className="counter" data-target="4.6" data-type="rating">0</h1>
+        <div className="counter-item1">
+        <img src="	https://i.imgur.com/A1YuIgX.png" alt="Image" className="counter-img1" />
+        <h1 className="counter1" data-target="4.6" data-type="rating">0</h1>
       
         <h2 style={{fontFamily:"Oswald"}} >RATING</h2>
       </div>
@@ -102,4 +102,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Counter1;
