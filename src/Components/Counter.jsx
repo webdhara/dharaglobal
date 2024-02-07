@@ -16,7 +16,7 @@ const Counter = () => {
         counters.forEach((counter, index) => {
           function updateCounter() {
             const targetNumber = +counter.dataset.target;
-
+            
             const initialNumber = +counter.innerText;
             const incPerCount = targetNumber / speed;
             if (initialNumber < targetNumber) {
